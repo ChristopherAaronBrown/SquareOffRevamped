@@ -97,12 +97,11 @@
 		833166CD20F091C900373455 /* squareoffrevamped */ = {
 			isa = PBXGroup;
 			children = (
-				833166CE20F091C900373455 /* AppDelegate.swift */,
-				833166D020F091C900373455 /* ViewController.swift */,
-				833166D220F091C900373455 /* Main.storyboard */,
-				833166D520F091C900373455 /* Assets.xcassets */,
-				833166D720F091C900373455 /* LaunchScreen.storyboard */,
-				833166DA20F091CA00373455 /* Info.plist */,
+				83FBFEFC20F095AC00CE69F2 /* Utilities */,
+				83FBFEFB20F0957200CE69F2 /* Resources */,
+				83FBFEF820F094FC00CE69F2 /* Models */,
+				83FBFEF720F094EB00CE69F2 /* Views */,
+				83FBFEF920F0950500CE69F2 /* Controllers */,
 			);
 			path = squareoffrevamped;
 			sourceTree = "<group>";
@@ -123,6 +122,55 @@
 				833166F020F091CA00373455 /* Info.plist */,
 			);
 			path = squareoffrevampedUITests;
+			sourceTree = "<group>";
+		};
+		83FBFEF720F094EB00CE69F2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				83FBFEFA20F0951B00CE69F2 /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		83FBFEF820F094FC00CE69F2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		83FBFEF920F0950500CE69F2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				833166D020F091C900373455 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		83FBFEFA20F0951B00CE69F2 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				833166D220F091C900373455 /* Main.storyboard */,
+				833166D720F091C900373455 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		83FBFEFB20F0957200CE69F2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				833166D520F091C900373455 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		83FBFEFC20F095AC00CE69F2 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				833166DA20F091CA00373455 /* Info.plist */,
+				833166CE20F091C900373455 /* AppDelegate.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
