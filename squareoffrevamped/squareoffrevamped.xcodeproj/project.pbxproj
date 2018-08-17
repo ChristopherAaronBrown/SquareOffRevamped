@@ -14,6 +14,8 @@
 		833166D920F091C900373455 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833166D720F091C900373455 /* LaunchScreen.storyboard */; };
 		833166E420F091CA00373455 /* squareoffrevampedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833166E320F091CA00373455 /* squareoffrevampedTests.swift */; };
 		833166EF20F091CA00373455 /* squareoffrevampedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833166EE20F091CA00373455 /* squareoffrevampedUITests.swift */; };
+		83FBFEFE20F09A2E00CE69F2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FBFEFD20F09A2E00CE69F2 /* Constants.swift */; };
+		83FBFF0020F0A0DA00CE69F2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83FBFEFF20F0A0DA00CE69F2 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		833166EA20F091CA00373455 /* squareoffrevampedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = squareoffrevampedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		833166EE20F091CA00373455 /* squareoffrevampedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = squareoffrevampedUITests.swift; sourceTree = "<group>"; };
 		833166F020F091CA00373455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83FBFEFD20F09A2E00CE69F2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		83FBFEFF20F0A0DA00CE69F2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		833166C220F091C900373455 = {
 			isa = PBXGroup;
 			children = (
+				83FBFEFF20F0A0DA00CE69F2 /* Default-568h@2x.png */,
 				833166CD20F091C900373455 /* squareoffrevamped */,
 				833166E220F091CA00373455 /* squareoffrevampedTests */,
 				833166ED20F091CA00373455 /* squareoffrevampedUITests */,
@@ -169,6 +174,7 @@
 			children = (
 				833166DA20F091CA00373455 /* Info.plist */,
 				833166CE20F091C900373455 /* AppDelegate.swift */,
+				83FBFEFD20F09A2E00CE69F2 /* Constants.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -278,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				833166D920F091C900373455 /* LaunchScreen.storyboard in Resources */,
+				83FBFF0020F0A0DA00CE69F2 /* Default-568h@2x.png in Resources */,
 				833166D620F091C900373455 /* Assets.xcassets in Resources */,
 				833166D420F091C900373455 /* Main.storyboard in Resources */,
 			);
@@ -306,6 +313,7 @@
 			files = (
 				833166D120F091C900373455 /* ViewController.swift in Sources */,
 				833166CF20F091C900373455 /* AppDelegate.swift in Sources */,
+				83FBFEFE20F09A2E00CE69F2 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,7 +488,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V7QG22YHNG;
-				INFOPLIST_FILE = squareoffrevamped/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/squareoffrevamped/Utilities/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -498,7 +506,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V7QG22YHNG;
-				INFOPLIST_FILE = squareoffrevamped/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/squareoffrevamped/Utilities/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
