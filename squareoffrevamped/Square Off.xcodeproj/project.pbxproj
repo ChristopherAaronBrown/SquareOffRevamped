@@ -36,17 +36,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		833166CB20F091C900373455 /* squareoffrevamped.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = squareoffrevamped.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		833166CB20F091C900373455 /* Square Off.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Square Off.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		833166CE20F091C900373455 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		833166D020F091C900373455 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		833166D320F091C900373455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		833166D520F091C900373455 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		833166D820F091C900373455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		833166DA20F091CA00373455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		833166DF20F091CA00373455 /* squareoffrevampedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = squareoffrevampedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		833166DF20F091CA00373455 /* Square OffTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Square OffTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		833166E320F091CA00373455 /* squareoffrevampedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = squareoffrevampedTests.swift; sourceTree = "<group>"; };
 		833166E520F091CA00373455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		833166EA20F091CA00373455 /* squareoffrevampedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = squareoffrevampedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		833166EA20F091CA00373455 /* Square OffUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Square OffUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		833166EE20F091CA00373455 /* squareoffrevampedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = squareoffrevampedUITests.swift; sourceTree = "<group>"; };
 		833166F020F091CA00373455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83FBFEFD20F09A2E00CE69F2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -82,9 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				83FBFEFF20F0A0DA00CE69F2 /* Default-568h@2x.png */,
-				833166CD20F091C900373455 /* squareoffrevamped */,
-				833166E220F091CA00373455 /* squareoffrevampedTests */,
-				833166ED20F091CA00373455 /* squareoffrevampedUITests */,
+				833166CD20F091C900373455 /* Square Off */,
+				833166E220F091CA00373455 /* Square Off Tests */,
+				833166ED20F091CA00373455 /* Square Off UI Tests */,
 				833166CC20F091C900373455 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,14 +92,14 @@
 		833166CC20F091C900373455 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				833166CB20F091C900373455 /* squareoffrevamped.app */,
-				833166DF20F091CA00373455 /* squareoffrevampedTests.xctest */,
-				833166EA20F091CA00373455 /* squareoffrevampedUITests.xctest */,
+				833166CB20F091C900373455 /* Square Off.app */,
+				833166DF20F091CA00373455 /* Square OffTests.xctest */,
+				833166EA20F091CA00373455 /* Square OffUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		833166CD20F091C900373455 /* squareoffrevamped */ = {
+		833166CD20F091C900373455 /* Square Off */ = {
 			isa = PBXGroup;
 			children = (
 				83FBFEFC20F095AC00CE69F2 /* Utilities */,
@@ -108,25 +108,25 @@
 				83FBFEF720F094EB00CE69F2 /* Views */,
 				83FBFEF920F0950500CE69F2 /* Controllers */,
 			);
-			path = squareoffrevamped;
+			path = "Square Off";
 			sourceTree = "<group>";
 		};
-		833166E220F091CA00373455 /* squareoffrevampedTests */ = {
+		833166E220F091CA00373455 /* Square Off Tests */ = {
 			isa = PBXGroup;
 			children = (
 				833166E320F091CA00373455 /* squareoffrevampedTests.swift */,
 				833166E520F091CA00373455 /* Info.plist */,
 			);
-			path = squareoffrevampedTests;
+			path = "Square Off Tests";
 			sourceTree = "<group>";
 		};
-		833166ED20F091CA00373455 /* squareoffrevampedUITests */ = {
+		833166ED20F091CA00373455 /* Square Off UI Tests */ = {
 			isa = PBXGroup;
 			children = (
 				833166EE20F091CA00373455 /* squareoffrevampedUITests.swift */,
 				833166F020F091CA00373455 /* Info.plist */,
 			);
-			path = squareoffrevampedUITests;
+			path = "Square Off UI Tests";
 			sourceTree = "<group>";
 		};
 		83FBFEF720F094EB00CE69F2 /* Views */ = {
@@ -182,9 +182,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		833166CA20F091C900373455 /* squareoffrevamped */ = {
+		833166CA20F091C900373455 /* Square Off */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 833166F320F091CA00373455 /* Build configuration list for PBXNativeTarget "squareoffrevamped" */;
+			buildConfigurationList = 833166F320F091CA00373455 /* Build configuration list for PBXNativeTarget "Square Off" */;
 			buildPhases = (
 				833166C720F091C900373455 /* Sources */,
 				833166C820F091C900373455 /* Frameworks */,
@@ -194,14 +194,14 @@
 			);
 			dependencies = (
 			);
-			name = squareoffrevamped;
+			name = "Square Off";
 			productName = squareoffrevamped;
-			productReference = 833166CB20F091C900373455 /* squareoffrevamped.app */;
+			productReference = 833166CB20F091C900373455 /* Square Off.app */;
 			productType = "com.apple.product-type.application";
 		};
-		833166DE20F091CA00373455 /* squareoffrevampedTests */ = {
+		833166DE20F091CA00373455 /* Square OffTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 833166F620F091CA00373455 /* Build configuration list for PBXNativeTarget "squareoffrevampedTests" */;
+			buildConfigurationList = 833166F620F091CA00373455 /* Build configuration list for PBXNativeTarget "Square OffTests" */;
 			buildPhases = (
 				833166DB20F091CA00373455 /* Sources */,
 				833166DC20F091CA00373455 /* Frameworks */,
@@ -212,14 +212,14 @@
 			dependencies = (
 				833166E120F091CA00373455 /* PBXTargetDependency */,
 			);
-			name = squareoffrevampedTests;
+			name = "Square OffTests";
 			productName = squareoffrevampedTests;
-			productReference = 833166DF20F091CA00373455 /* squareoffrevampedTests.xctest */;
+			productReference = 833166DF20F091CA00373455 /* Square OffTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		833166E920F091CA00373455 /* squareoffrevampedUITests */ = {
+		833166E920F091CA00373455 /* Square OffUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 833166F920F091CA00373455 /* Build configuration list for PBXNativeTarget "squareoffrevampedUITests" */;
+			buildConfigurationList = 833166F920F091CA00373455 /* Build configuration list for PBXNativeTarget "Square OffUITests" */;
 			buildPhases = (
 				833166E620F091CA00373455 /* Sources */,
 				833166E720F091CA00373455 /* Frameworks */,
@@ -230,9 +230,9 @@
 			dependencies = (
 				833166EC20F091CA00373455 /* PBXTargetDependency */,
 			);
-			name = squareoffrevampedUITests;
+			name = "Square OffUITests";
 			productName = squareoffrevampedUITests;
-			productReference = 833166EA20F091CA00373455 /* squareoffrevampedUITests.xctest */;
+			productReference = 833166EA20F091CA00373455 /* Square OffUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -258,7 +258,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 833166C620F091C900373455 /* Build configuration list for PBXProject "squareoffrevamped" */;
+			buildConfigurationList = 833166C620F091C900373455 /* Build configuration list for PBXProject "Square Off" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -271,9 +271,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				833166CA20F091C900373455 /* squareoffrevamped */,
-				833166DE20F091CA00373455 /* squareoffrevampedTests */,
-				833166E920F091CA00373455 /* squareoffrevampedUITests */,
+				833166CA20F091C900373455 /* Square Off */,
+				833166DE20F091CA00373455 /* Square OffTests */,
+				833166E920F091CA00373455 /* Square OffUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -338,12 +338,12 @@
 /* Begin PBXTargetDependency section */
 		833166E120F091CA00373455 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 833166CA20F091C900373455 /* squareoffrevamped */;
+			target = 833166CA20F091C900373455 /* Square Off */;
 			targetProxy = 833166E020F091CA00373455 /* PBXContainerItemProxy */;
 		};
 		833166EC20F091CA00373455 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 833166CA20F091C900373455 /* squareoffrevamped */;
+			target = 833166CA20F091C900373455 /* Square Off */;
 			targetProxy = 833166EB20F091CA00373455 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -535,7 +535,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/squareoffrevamped.app/squareoffrevamped";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Square Off.app/Square Off";
 			};
 			name = Debug;
 		};
@@ -556,7 +556,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/squareoffrevamped.app/squareoffrevamped";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Square Off.app/Square Off";
 			};
 			name = Release;
 		};
@@ -603,7 +603,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		833166C620F091C900373455 /* Build configuration list for PBXProject "squareoffrevamped" */ = {
+		833166C620F091C900373455 /* Build configuration list for PBXProject "Square Off" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				833166F120F091CA00373455 /* Debug */,
@@ -612,7 +612,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		833166F320F091CA00373455 /* Build configuration list for PBXNativeTarget "squareoffrevamped" */ = {
+		833166F320F091CA00373455 /* Build configuration list for PBXNativeTarget "Square Off" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				833166F420F091CA00373455 /* Debug */,
@@ -621,7 +621,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		833166F620F091CA00373455 /* Build configuration list for PBXNativeTarget "squareoffrevampedTests" */ = {
+		833166F620F091CA00373455 /* Build configuration list for PBXNativeTarget "Square OffTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				833166F720F091CA00373455 /* Debug */,
@@ -630,7 +630,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		833166F920F091CA00373455 /* Build configuration list for PBXNativeTarget "squareoffrevampedUITests" */ = {
+		833166F920F091CA00373455 /* Build configuration list for PBXNativeTarget "Square OffUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				833166FA20F091CA00373455 /* Debug */,
