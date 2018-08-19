@@ -8,7 +8,7 @@
 
 import XCTest
 
-class squareoffrevampedUITests: XCTestCase {
+class SquareOffUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

@@ -7,9 +7,9 @@
 //
 
 import XCTest
-@testable import squareoffrevamped
+@testable import SquareOff
 
-class squareoffrevampedTests: XCTestCase {
+class SquareOffTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

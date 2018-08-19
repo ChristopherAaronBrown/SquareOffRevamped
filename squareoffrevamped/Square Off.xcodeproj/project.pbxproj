@@ -12,8 +12,8 @@
 		833166D420F091C900373455 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833166D220F091C900373455 /* Main.storyboard */; };
 		833166D620F091C900373455 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 833166D520F091C900373455 /* Assets.xcassets */; };
 		833166D920F091C900373455 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833166D720F091C900373455 /* LaunchScreen.storyboard */; };
-		833166E420F091CA00373455 /* squareoffrevampedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833166E320F091CA00373455 /* squareoffrevampedTests.swift */; };
-		833166EF20F091CA00373455 /* squareoffrevampedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833166EE20F091CA00373455 /* squareoffrevampedUITests.swift */; };
+		833166E420F091CA00373455 /* SquareOffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833166E320F091CA00373455 /* SquareOffTests.swift */; };
+		833166EF20F091CA00373455 /* SquareOffUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833166EE20F091CA00373455 /* SquareOffUITests.swift */; };
 		83FBFEFE20F09A2E00CE69F2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FBFEFD20F09A2E00CE69F2 /* Constants.swift */; };
 		83FBFF0020F0A0DA00CE69F2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83FBFEFF20F0A0DA00CE69F2 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
@@ -44,10 +44,10 @@
 		833166D820F091C900373455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		833166DA20F091CA00373455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		833166DF20F091CA00373455 /* Square OffTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Square OffTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		833166E320F091CA00373455 /* squareoffrevampedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = squareoffrevampedTests.swift; sourceTree = "<group>"; };
+		833166E320F091CA00373455 /* SquareOffTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareOffTests.swift; sourceTree = "<group>"; };
 		833166E520F091CA00373455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		833166EA20F091CA00373455 /* Square OffUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Square OffUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		833166EE20F091CA00373455 /* squareoffrevampedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = squareoffrevampedUITests.swift; sourceTree = "<group>"; };
+		833166EE20F091CA00373455 /* SquareOffUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareOffUITests.swift; sourceTree = "<group>"; };
 		833166F020F091CA00373455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83FBFEFD20F09A2E00CE69F2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		83FBFEFF20F0A0DA00CE69F2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -82,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				83FBFEFF20F0A0DA00CE69F2 /* Default-568h@2x.png */,
+				833166D520F091C900373455 /* Assets.xcassets */,
 				833166CD20F091C900373455 /* Square Off */,
 				833166E220F091CA00373455 /* Square Off Tests */,
 				833166ED20F091CA00373455 /* Square Off UI Tests */,
@@ -114,7 +115,7 @@
 		833166E220F091CA00373455 /* Square Off Tests */ = {
 			isa = PBXGroup;
 			children = (
-				833166E320F091CA00373455 /* squareoffrevampedTests.swift */,
+				833166E320F091CA00373455 /* SquareOffTests.swift */,
 				833166E520F091CA00373455 /* Info.plist */,
 			);
 			path = "Square Off Tests";
@@ -123,7 +124,7 @@
 		833166ED20F091CA00373455 /* Square Off UI Tests */ = {
 			isa = PBXGroup;
 			children = (
-				833166EE20F091CA00373455 /* squareoffrevampedUITests.swift */,
+				833166EE20F091CA00373455 /* SquareOffUITests.swift */,
 				833166F020F091CA00373455 /* Info.plist */,
 			);
 			path = "Square Off UI Tests";
@@ -164,7 +165,6 @@
 		83FBFEFB20F0957200CE69F2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				833166D520F091C900373455 /* Assets.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -321,7 +321,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				833166E420F091CA00373455 /* squareoffrevampedTests.swift in Sources */,
+				833166E420F091CA00373455 /* SquareOffTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,7 +329,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				833166EF20F091CA00373455 /* squareoffrevampedUITests.swift in Sources */,
+				833166EF20F091CA00373455 /* SquareOffUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,7 +488,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V7QG22YHNG;
-				INFOPLIST_FILE = "$(SRCROOT)/squareoffrevamped/Utilities/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Square Off/Utilities/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -506,7 +506,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V7QG22YHNG;
-				INFOPLIST_FILE = "$(SRCROOT)/squareoffrevamped/Utilities/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Square Off/Utilities/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
