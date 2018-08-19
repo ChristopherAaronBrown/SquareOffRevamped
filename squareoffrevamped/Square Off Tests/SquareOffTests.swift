@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import SquareOff
+@testable import Square_Off
 
 class SquareOffTests: XCTestCase {
     

@@ -43,10 +43,10 @@
 		833166D520F091C900373455 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		833166D820F091C900373455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		833166DA20F091CA00373455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		833166DF20F091CA00373455 /* Square OffTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Square OffTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		833166DF20F091CA00373455 /* Square Off Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Square Off Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		833166E320F091CA00373455 /* SquareOffTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareOffTests.swift; sourceTree = "<group>"; };
 		833166E520F091CA00373455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		833166EA20F091CA00373455 /* Square OffUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Square OffUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		833166EA20F091CA00373455 /* Square Off UI Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Square Off UI Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		833166EE20F091CA00373455 /* SquareOffUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareOffUITests.swift; sourceTree = "<group>"; };
 		833166F020F091CA00373455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83FBFEFD20F09A2E00CE69F2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -94,8 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				833166CB20F091C900373455 /* Square Off.app */,
-				833166DF20F091CA00373455 /* Square OffTests.xctest */,
-				833166EA20F091CA00373455 /* Square OffUITests.xctest */,
+				833166DF20F091CA00373455 /* Square Off Tests.xctest */,
+				833166EA20F091CA00373455 /* Square Off UI Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -199,9 +199,9 @@
 			productReference = 833166CB20F091C900373455 /* Square Off.app */;
 			productType = "com.apple.product-type.application";
 		};
-		833166DE20F091CA00373455 /* Square OffTests */ = {
+		833166DE20F091CA00373455 /* Square Off Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 833166F620F091CA00373455 /* Build configuration list for PBXNativeTarget "Square OffTests" */;
+			buildConfigurationList = 833166F620F091CA00373455 /* Build configuration list for PBXNativeTarget "Square Off Tests" */;
 			buildPhases = (
 				833166DB20F091CA00373455 /* Sources */,
 				833166DC20F091CA00373455 /* Frameworks */,
@@ -212,14 +212,14 @@
 			dependencies = (
 				833166E120F091CA00373455 /* PBXTargetDependency */,
 			);
-			name = "Square OffTests";
+			name = "Square Off Tests";
 			productName = squareoffrevampedTests;
-			productReference = 833166DF20F091CA00373455 /* Square OffTests.xctest */;
+			productReference = 833166DF20F091CA00373455 /* Square Off Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		833166E920F091CA00373455 /* Square OffUITests */ = {
+		833166E920F091CA00373455 /* Square Off UI Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 833166F920F091CA00373455 /* Build configuration list for PBXNativeTarget "Square OffUITests" */;
+			buildConfigurationList = 833166F920F091CA00373455 /* Build configuration list for PBXNativeTarget "Square Off UI Tests" */;
 			buildPhases = (
 				833166E620F091CA00373455 /* Sources */,
 				833166E720F091CA00373455 /* Frameworks */,
@@ -230,9 +230,9 @@
 			dependencies = (
 				833166EC20F091CA00373455 /* PBXTargetDependency */,
 			);
-			name = "Square OffUITests";
+			name = "Square Off UI Tests";
 			productName = squareoffrevampedUITests;
-			productReference = 833166EA20F091CA00373455 /* Square OffUITests.xctest */;
+			productReference = 833166EA20F091CA00373455 /* Square Off UI Tests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -272,8 +272,8 @@
 			projectRoot = "";
 			targets = (
 				833166CA20F091C900373455 /* Square Off */,
-				833166DE20F091CA00373455 /* Square OffTests */,
-				833166E920F091CA00373455 /* Square OffUITests */,
+				833166DE20F091CA00373455 /* Square Off Tests */,
+				833166E920F091CA00373455 /* Square Off UI Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -422,6 +422,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -475,6 +476,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -494,6 +496,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chrisbrown.squareoffrevamped;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -512,6 +515,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chrisbrown.squareoffrevamped;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -525,7 +529,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V7QG22YHNG;
-				INFOPLIST_FILE = squareoffrevampedTests/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Square Off Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -546,7 +550,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V7QG22YHNG;
-				INFOPLIST_FILE = squareoffrevampedTests/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Square Off Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -566,7 +570,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V7QG22YHNG;
-				INFOPLIST_FILE = squareoffrevampedUITests/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Square Off UI Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -586,7 +590,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V7QG22YHNG;
-				INFOPLIST_FILE = squareoffrevampedUITests/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Square Off UI Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -621,7 +625,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		833166F620F091CA00373455 /* Build configuration list for PBXNativeTarget "Square OffTests" */ = {
+		833166F620F091CA00373455 /* Build configuration list for PBXNativeTarget "Square Off Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				833166F720F091CA00373455 /* Debug */,
@@ -630,7 +634,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		833166F920F091CA00373455 /* Build configuration list for PBXNativeTarget "Square OffUITests" */ = {
+		833166F920F091CA00373455 /* Build configuration list for PBXNativeTarget "Square Off UI Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				833166FA20F091CA00373455 /* Debug */,
