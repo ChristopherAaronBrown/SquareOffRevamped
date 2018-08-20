@@ -10,14 +10,14 @@ import Foundation
 
 class Board {
     private var board: [[Space]]
-    var spaces: Int { return Constants.numberOfSpaces * Constants.numberOfSpaces }
+    var spaces: Int { return Constants.spacesPerCol * Constants.spacesPerRow }
     
     init() {
         board = [[Space]]()
         
-        for col in 0..<Constants.numberOfSpaces {
+        for col in 0..<Constants.spacesPerCol {
             var column = [Space]()
-            for row in 0..<Constants.numberOfSpaces {
+            for row in 0..<Constants.spacesPerRow {
                 let coordinate = try! Coordinate(col, row)
                 let space = Space(coordinate)
                 column.append(space)

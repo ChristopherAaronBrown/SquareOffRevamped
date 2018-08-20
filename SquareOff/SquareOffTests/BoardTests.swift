@@ -7,19 +7,16 @@
 //
 
 import XCTest
-import UIKit
 @testable import SquareOff
 
 class BoardTests: XCTestCase {
-    var board: Board!
     
     override func setUp() {
         super.setUp()
-        board = Board()
     }
     
     override func tearDown() {
-        board = nil
+        super.tearDown()
     }
     
 }

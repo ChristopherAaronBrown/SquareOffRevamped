@@ -21,8 +21,8 @@ struct Coordinate {
     var decription: String { return "[\(col),\(row)]" }
     
     init(_ col: Int, _ row: Int) throws {
-        guard (col >= 0 && col < Constants.numberOfSpaces) else { throw CoordinateError.outOfBounds }
-        guard (row >= 0 && row < Constants.numberOfSpaces) else { throw CoordinateError.outOfBounds }
+        guard (col >= 0 && col < Constants.spacesPerCol) else { throw CoordinateError.outOfBounds }
+        guard (row >= 0 && row < Constants.spacesPerRow) else { throw CoordinateError.outOfBounds }
         self.col = col
         self.row = row
     }

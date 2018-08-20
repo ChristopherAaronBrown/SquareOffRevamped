@@ -9,6 +9,7 @@
 import UIKit
 
 struct Constants {
-    static let numberOfSpaces: Int = UIDevice.current.userInterfaceIdiom == UIUserInterfaceIdiom.pad ? 8 : 6
+    static let spacesPerCol: Int = 6
+    static let spacesPerRow: Int = Constants.spacesPerCol
 }
 

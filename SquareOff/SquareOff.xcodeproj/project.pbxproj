@@ -121,8 +121,8 @@
 		833166E220F091CA00373455 /* SquareOffTests */ = {
 			isa = PBXGroup;
 			children = (
-				83A14A24212A120F00A53DB6 /* BoardTests.swift */,
 				833166E320F091CA00373455 /* SquareOffTests.swift */,
+				83A14A24212A120F00A53DB6 /* BoardTests.swift */,
 				833166E520F091CA00373455 /* Info.plist */,
 			);
 			path = SquareOffTests;
